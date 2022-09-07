@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">DuniFood</string>
+    <string name="todo">TODO</string>
+    <string name="find_food">Find food</string>
+    <string name="my_restaurant_app">My Restaurant App</string>
+</resources>
