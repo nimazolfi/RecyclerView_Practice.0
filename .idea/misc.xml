@@ -4,6 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Project/Food_App/App/Recycler_View_Practice/app/src/main/res/layout/dialog_add_new_item.xml" value="0.18802083333333333" />
+        <entry key="..\:/Project/Food_App/Files/RecyclerView_Practice.0/app/src/main/res/layout/activity_main.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/Food_App/Files/RecyclerView_Practice.0/app/src/main/res/layout/dialog_add_new_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/Food_App/Files/RecyclerView_Practice.0/app/src/main/res/layout/dialog_delete_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/Food_App/Files/RecyclerView_Practice.0/app/src/main/res/layout/dialog_update_item.xml" value="0.36666666666666664" />
+        <entry key="..\:/Project/Food_App/Files/RecyclerView_Practice.0/app/src/main/res/layout/item_food.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
