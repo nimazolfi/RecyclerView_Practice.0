@@ -1,0 +1,1 @@
+this package is about the classes like for connection checking, classes have extensions function and etc that are not in the MVP architecture

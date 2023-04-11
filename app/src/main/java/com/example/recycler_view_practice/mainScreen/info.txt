@@ -1,0 +1,1 @@
+this package is about View side of MVP architecture

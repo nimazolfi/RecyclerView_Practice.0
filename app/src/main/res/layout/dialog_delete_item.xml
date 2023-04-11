@@ -25,7 +25,7 @@
         android:fontFamily="@font/primary_bold_pds"
         android:textSize="10sp"
         android:layout_marginEnd="6dp"
-        android:id="@+id/btnSure"
+        android:id="@+id/btnCancel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -35,7 +35,7 @@
         android:padding="8dp"
         android:text="No, Cancel it"
         app:icon="@drawable/ic_cancel"
-        app:layout_constraintEnd_toStartOf="@+id/btnCancel"
+        app:layout_constraintEnd_toStartOf="@+id/btnSure"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
@@ -45,7 +45,7 @@
         android:fontFamily="@font/primary_bold_pds"
         android:textSize="10sp"
         android:layout_marginStart="6dp"
-        android:id="@+id/btnCancel"
+        android:id="@+id/btnSure"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
@@ -56,8 +56,8 @@
         app:icon="@drawable/ic_verified"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/btnSure"
-        app:layout_constraintTop_toTopOf="@+id/btnSure"
+        app:layout_constraintStart_toEndOf="@+id/btnCancel"
+        app:layout_constraintTop_toTopOf="@+id/btnCancel"
         tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

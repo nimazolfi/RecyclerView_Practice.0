@@ -27,6 +27,15 @@
                 android:layout_gravity="end|center_vertical"
                 app:tint="@color/white" />
 
+            <ImageView
+                android:layout_marginEnd="42dp"
+                android:id="@+id/RemoveAllFoods"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:src="@drawable/ic_remove"
+                android:layout_gravity="end|center_vertical"
+                app:tint="@color/white" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
