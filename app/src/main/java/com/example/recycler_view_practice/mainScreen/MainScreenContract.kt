@@ -1,13 +1,13 @@
 package com.example.recycler_view_practice.mainScreen
 
 import com.example.recycler_view_practice.model.Food
+import com.example.recycler_view_practice.util.BasePresenter
+import com.example.recycler_view_practice.util.BaseView
 
 interface MainScreenContract {
 
-    interface Presenter{
+    interface Presenter: BasePresenter<MainScreenContract.View>{
         fun firstRun()
-        fun onAttach(View: MainScreenContract.View)
-        fun onDetach()
 
         fun onSearchFood(filter: String)
         fun onAddNewFoodClicked(food: Food)
@@ -17,7 +17,7 @@ interface MainScreenContract {
         fun onDeleteFood(food: Food, position: Int)
     }
 
-    interface View{
+    interface View: BaseView{
         fun showFoods(data: List<Food>)
         fun refreshFoods(data: List<Food>)
         fun addNewFood(newFood: Food)

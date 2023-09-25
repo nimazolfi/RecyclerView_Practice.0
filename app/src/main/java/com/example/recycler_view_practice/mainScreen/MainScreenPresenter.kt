@@ -2,6 +2,7 @@ package com.example.recycler_view_practice.mainScreen
 
 import com.example.recycler_view_practice.model.Food
 import com.example.recycler_view_practice.model.FoodDao
+import com.example.recycler_view_practice.util.BaseView
 
 class MainScreenPresenter(
     private val foodDao: FoodDao
@@ -161,4 +162,5 @@ class MainScreenPresenter(
         foodDao.deleteFood(food)
         mainView!!.deleteFood(food, position)
     }
+
 }
