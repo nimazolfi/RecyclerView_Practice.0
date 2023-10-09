@@ -66,6 +66,7 @@ class MainScreenActivity : AppCompatActivity(), FoodAdapter.FoodEvents, MainScre
         //    Calling showAllData function
 //        showAllData()
 
+
         mainScreenPresenter.onAttach(this)
 
         binding.RemoveAllFoods.setOnClickListener {
